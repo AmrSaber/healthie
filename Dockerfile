@@ -14,6 +14,6 @@ COPY bun.lockb .
 
 RUN bun install
 
-COPY src .
+COPY src src
 
 CMD ["bun", "start"]
